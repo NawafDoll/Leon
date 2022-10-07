@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+img{
+width: 100px;
+height: 50px;
+}
+header{
+display: flex;
+justify-content: space-between;
+margin: 10px 100px;
+}
+.menu{
+width: 100px;
+padding: 0px 15px;
+z-index: 10;
+}
+.menu .line{
+width: 40px;
+border-top: 2px solid;
+margin: 10px 0px;
+}
+.menu .lines{
+width: 20px;
+border-top: 2px solid;
+margin: 10px 0px;
+}
+.word{
+ visibility: hidden; 
+
+}
+.one,.two,.three,.four{
+background-color: beige;
+width: 90px;
+padding: 8px 21px;
+margin-top: 1px;
+z-index: 20;
+}
+.menu:hover .word{
+visibility: inherit;
+}
+.menu:hover .lines{
+width: 40px;
+}
+/* ######################################### */
+
+.sectionOne{
+background-image: url("https://github.com/ElzeroWebSchool/HTML_And_CSS_Template_One/blob/main/images/landing.jpg?raw=true" );      
+height: 41vh;
+background-size: 100%;
+text-align: center;
+background-repeat: no-repeat;
+width: 100%;
+position: relative;
+bottom: 130px;
+padding: 100px 0px;
+}
+.sectionOne h1{
+color: cyan;
+font-size: 40px;
+}
+/* ############################################# */
+
+.sectionTwo{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.sectionTwo i{
+color: cyan;
+font-size: 40px;
+}
+.sectionTwo div{
+text-align: center;
+width: 300px;
+}
+.sectionTwo p {
+color: rgb(155, 150, 150);
+}
+/* ###################################################### */
+.services{
+width: 100%;
+text-align: center;
+padding: 60px 0px;
+}
+.services span{
+font-size: 90px;
+color: rgb(155, 150, 150);
+}
+.services p{
+font-size: 20px;
+margin: -26px 0px 0px 0px;
+color: #000000cc
+}
+/*#########################################################################  */
+.section3{
+margin: 52px auto;
+}
+.section3 i{
+color: cyan;
+font-size: 40px;
+margin-right: 20px;
+}
+.section3 .after{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 100%;
+position: relative;
+}
+.section3 .after .first{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 55%;
+}
+.section3 div{
+text-align: center;
+width: 248px;
+}
+.section3 .after .second{
+position: relative;
+}
+.section3 img{
+height: 50vh;
+width: 255px;
+}
+.after::after{
+content: "";
+padding: 220px 50px;
+position: absolute;
+background-color: rgb(3, 52, 92);
+right: 15px;
+top: -46px;
+z-index: -3;
+}
+/* ############################################ */
+.section4{
+background-color: #ccc;
+
+height: 100vh;
+}
+.section4 div h1{
+font-size: 90px;
+color: rgb(155, 150, 150);
+text-align: center;
+opacity: 0.3;
+}
+.section4 div p{
+font-size: 20px;
+margin: -40px 0px 0px 0px;
+color: #000000cc;
+text-align: center;
+}
+.images{
+margin: 50px auto;
+display: flex;
+justify-content: space-around;
+}
+.images img{
+width: 360px;
+height: 200px;
+
+}
+.images div{
+display: block;
+background-color: white;
+width: 360px;
+
+}
+.images div p{
+margin: 50px 0px;
+text-align: left;
+}
+/* ######################################## */
+.section5{
+background-color: white;
+height: 70vh;
+}
+.section5 .protofolio{
+padding: 54px;
+}
+.section5 .head h1{
+font-size: 90px;
+color: rgb(155, 150, 150);
+text-align: center;
+text-indent: 5px;
+opacity: 0.4;
+}
+.section5 .head p{
+font-size: 20px;
+margin: -40px 0px 0px 0px;
+color: #000000cc;
+text-align: center;
+}
+.section5 .all{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 80px auto;
+}
+.section5 .sentences{
+display: flex;
+justify-content: space-evenly;
+flex-direction: column;
+width: 60%;
+}
+.section5 .sentences .line{
+    content: "";
+    width: 500px;
+    height: 5px;
+    border-top: 1px solid cyan;
+}
+.section5 h6{
+font-weight: 100;
+font-size: 20px;
+}
+.section5 .img{
+height: 370px;
+width: 200px;
+position: relative;
+z-index: 213;
+}
+.section5 .all .img-shape{
+    position: relative;
+}
+.section5 .all .img-shape::after{
+    content: "";
+    position: absolute;
+    height: 319px;
+    width: 25px;
+    background-color: #040472;
+    top: -34px;
+    left: 121px;
+    padding: 50px;
+}
+
+
+/* ########################################### */
+.section6{
+background-color: white;
+margin: 180px auto;
+}
+.section6 div h1{
+font-size: 90px;
+color: rgb(155, 150, 150);
+text-align: center;
+text-indent: 5px;
+opacity: 0.4;
+}
+.section6 div p{
+font-size: 20px;
+margin: -40px 0px 0px 0px;
+color: #000000cc;
+text-align: center;
+}
+.section6 .concat{
+text-align: center;
+margin: 74px auto;
+}
+.section6 .concat h1{
+color: rgb(3, 52, 92);
+font-size: 30px;
+}
+.section6 .concat h2{
+color: cyan;
+}
+/* ###################################### */
+footer{
+background-color: rgb(3, 52, 92);
+padding: 20px 0px;
+text-align: center;
+color: white;
+}
